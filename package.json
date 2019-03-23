@@ -1,0 +1,9 @@
+{
+  "name": "nodecms",
+  "version": "1.0.0",
+  "description": "node cms",
+  "main": "index.js",
+  "repository": "git@github.com:TheYakuza/nodecms.git",
+  "author": "Nicolas Martinez V <Nicolas Martinez V>",
+  "license": "MIT"
+}
