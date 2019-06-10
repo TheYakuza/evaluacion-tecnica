@@ -17,5 +17,12 @@
         "ecmaVersion": 2018
     },
     "rules": {
+    },
+    "settings": {
+      "import/resolver": {
+        "app-module-path": {
+          "addPath": "__dirname"
+        }
+      }
     }
 }
