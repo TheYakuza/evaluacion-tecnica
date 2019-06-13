@@ -21,6 +21,8 @@
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.5.4",
     "body-parser": "^1.19.0",
+    "bulma": "^0.7.5",
+    "bulma-extensions": "^6.2.7",
     "connect-flash": "^0.1.1",
     "console-log-level": "^1.4.1",
     "cors": "^2.8.5",
@@ -36,6 +38,7 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
+    "pug": "^2.0.3",
     "rotating-file-stream": "^1.4.0",
     "serve-favicon": "^2.5.0"
   }

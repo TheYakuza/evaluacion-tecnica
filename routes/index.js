@@ -1,9 +1,9 @@
 const express = require('express');
 
+const main = require('./main');
+
 const app = express();
 
-const users = require('./users');
-
-app.use('/users', users);
+app.use('/', main);
 
 module.exports = app;

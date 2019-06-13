@@ -69,33 +69,12 @@ mongoose.connect(
   err => (log.error(msg.db.nook, err)),
 );
 
-if (!isProduction) {
-  mongoose.set('debug', true);
-  app.use((err, req, res) => {
-    res.status(err.status || 500);
-
-    res.json({
-      errors: {
-        message: err.message,
-        error: err,
-      },
-    });
-  });
-}
-
-app.use((err, req, res) => {
-  res.status(err.status || 500);
-
-  res.json({
-    errors: {
-      message: err.message,
-      error: {},
-    },
-  });
-});
-
 const indexRouter = require('./routes');
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.use(loggerError);
 app.use(loggerAccess);
