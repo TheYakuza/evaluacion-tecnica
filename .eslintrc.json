@@ -18,6 +18,9 @@
     },
     "rules": {
     },
+    "plugins": [
+      "pug"
+    ],
     "settings": {
       "import/resolver": {
         "app-module-path": {

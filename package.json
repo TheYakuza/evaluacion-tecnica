@@ -14,7 +14,8 @@
     "ava": "^1.4.0",
     "eslint": "^5.15.3",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-pug": "^1.1.1"
   },
   "dependencies": {
     "app-module-path": "^2.2.0",
@@ -40,6 +41,7 @@
     "path": "^0.12.7",
     "pug": "^2.0.3",
     "rotating-file-stream": "^1.4.0",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "shortid": "^2.2.14"
   }
 }

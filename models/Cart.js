@@ -1,9 +1,7 @@
-import articles from './Articles';
-
 const mongoose = require('mongoose');
 
 const CartSchema = mongoose.Schema({
-  items: [articles],
+  items: Map,
   commited: Boolean,
 },
 {

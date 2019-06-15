@@ -2,4 +2,14 @@ extends templates/main
 
 block content
   include navbar 
-  h1.title Test
+  h1.title.has-text-centered Desafio Tecnico para Continuum
+  .container
+    .section
+      .level
+        .level-item.has-text-centered
+          a(href='/backoffice')
+            button.button.is-large.is-default BackOffice
+        .level-item.has-text-centered
+          a(href='/checkout')
+            button.button.is-large.is-default Checkout
+  
